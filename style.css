@@ -1,0 +1,59 @@
+.box-min-width{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+
+@media screen and (min-width: 480px){
+    .box-min-width{
+        width: 100px;
+        height: 100px;
+        background: black;
+    }
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 640px){
+    .box-min-width{
+        width: 100px;
+        height: 100px;
+        background: orange;
+    }
+}
+@media screen and (min-width: 768px){
+    .box-min-width{
+        width: 100px;
+        height: 100px;
+        background: blue;
+    }
+}
+@media screen and (min-width: 1024px){
+    .box-min-width{
+        width: 100px;
+        height: 100px;
+        background: green;
+    }
+}
+.box-max-width{
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+
+/* MAX WIDTH */
+/* Hasta 0 hasta 300px hacia atras */ 
+@media screen and (max-width: 300px){
+    .box-max-width{
+        border: 1px solid red;
+        border-radius: 10px;
+        width: 300px;
+        height: 300px;
+        background: black;
+    }
+}
